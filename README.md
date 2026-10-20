@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="wix:image://v1/aec640_84b003c150b2462bbfd9b12b9c3f98ef~mv2.png/for%20black%20ground.png#originWidth=2172&originHeight=724" alt="INFUSE — Execution Intelligence" width="900">
+  <img src="https://static.wixstatic.com/media/aec640_84b003c150b2462bbfd9b12b9c3f98ef~mv2.png/for%20black%20ground.png" alt="INFUSE — Execution Intelligence" width="900">
 </p>
 
 <h1 align="center">INFUSE for Antigravity</h1>

@@ -1,0 +1,22 @@
+{
+  "tsconfigPath": "./tsconfig.json",
+  "entrypointPatterns": [
+    "page.",
+    "route.",
+    "layout.",
+    "index.",
+    "main.",
+    "app."
+  ],
+  "stubMarkers": [
+    "// TODO",
+    "// FIXME",
+    "throw new Error(\"Not implemented\")"
+  ],
+  "ignorePatterns": [
+    "node_modules/",
+    "dist/",
+    ".next/"
+  ],
+  "enableTypeCheck": true
+}
