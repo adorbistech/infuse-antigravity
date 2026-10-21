@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * INFUSE Post-Tool Execution Telemetry Hook
- * 
+ *
  * Captures tool execution completion metadata for INFUSE telemetry
  * and outputs the required empty JSON object `{}`.
  */

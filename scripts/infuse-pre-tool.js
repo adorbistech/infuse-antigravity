@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * INFUSE Pre-Tool Execution Governance Hook
- * 
+ *
  * Intercepts tool execution requests in Antigravity before they run.
  * Enforces policy gates, detects destructive/unauthorized actions,
  * supports remote preflight checks (with fail-closed semantics),
@@ -319,7 +319,7 @@ function main() {
 
       const payload = JSON.parse(rawData);
       const result = await performPreflightCheck(payload);
-      
+
       // Ensure reason is redacted
       if (result.reason) {
         result.reason = redactSecrets(result.reason);
