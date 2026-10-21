@@ -1,0 +1,29 @@
+{
+  "infuse-governance": {
+    "enabled": true,
+    "PreToolUse": [
+      {
+        "matcher": "run_command|execute_command|bash|write_file|edit_file|modify_file|read_file|read_resource|list_resources",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ./scripts/infuse-pre-tool.js",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ./scripts/infuse-post-tool.js",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

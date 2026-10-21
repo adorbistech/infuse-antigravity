@@ -1,7 +1,7 @@
 {
   "name": "infuse-antigravity",
   "version": "0.1.0",
-  "description": "INFUSE governance and execution intelligence for Antigravity agent workflows.",
+  "description": "INFUSE execution governance, pre-tool lifecycle interception, and execution intelligence for Antigravity agent workflows.",
   "author": {
     "name": "Adorbis LLC",
     "url": "https://www.adorbistech.com"
@@ -15,10 +15,16 @@
     "agent",
     "mcp",
     "antigravity",
-    "execution-intelligence"
+    "execution-intelligence",
+    "hooks",
+    "security"
   ],
   "mcpServers": [
     "./mcp_config.json"
+  ],
+  "hooks": "./hooks.json",
+  "rules": [
+    "./rules/AGENTS.md"
   ],
   "skills": [
     "./skills/infuse-governance"
